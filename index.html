@@ -3,89 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOUSNI Malika - Développeuse Full Stack Ruby on Rails</title>
+    <title>HOUSNI - Développeuse Full Stack Ruby on Rails</title>
     <style>
+        /* Styles de base */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            /* background-color: #f5f5f5; */
         }
-        .container {
+        
+        /* Conteneur principal */
+        .cv-container {
             display: flex;
             max-width: 1000px;
             margin: 20px auto;
-            background: white;
+            /* background: white; */
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+        
+        /* Colonnes */
         .left-column {
             width: 35%;
             padding: 30px;
-            background-color: #2E86C1;
-            color: white;
+            background-color: #dce6f1;
+            /* color: white; */
         }
+        
         .right-column {
             width: 65%;
             padding: 30px;
         }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
-            color: white;
+        
+        /* Styles pour les sauts de page */
+        .page {
+            page-break-after: always;
+            height: 1122px; /* Hauteur approximative A4 en pixels */
+            overflow: hidden;
         }
-        h2 {
-            font-size: 18px;
-            border-bottom: 2px solid #2E86C1;
-            padding-bottom: 5px;
-            margin-top: 25px;
-            color: #2E86C1;
+        
+        .page:last-child {
+            page-break-after: auto;
         }
-        .contact-info {
-            margin: 20px 0;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .section {
-            margin-bottom: 25px;
-        }
-        .project, .experience {
-            margin-bottom: 20px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        .highlight {
-            font-weight: bold;
-        }
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
+        
+        @media print {
+            body {
+                background: none;
             }
-            .left-column, .right-column {
-                width: 100%;
+            .cv-container {
+                box-shadow: none;
             }
-        }
+            .page {
+                height: auto;
+                page-break-after: always;
+            }
+					}
+						.contact-info a {
+							color: #2E86C1; /* Couleur bleue */
+							text-decoration: none;
+							transition: all 0.3s;
+						}
+						.contact-info a:hover {
+								text-decoration: underline;
+								opacity: 0.8;
+						}
+						.contact-info p {
+								margin: 8px 0;
+       		 }
+					 .title {
+						font-size: 24px;
+				}
+        
+        /* Autres styles... */
+        h1 { font-size: 36px; margin-bottom: 10px; font-weight: bold;font-style: italic;}
+        h2 { font-size: 18px; border-bottom: 2px solid #2E86C1; padding-bottom: 5px; margin-top: 25px; color: #2E86C1; }
+        .contact-info { margin: 20px 0; }
+        .contact-info p { margin: 5px 0; }
+        .section { margin-bottom: 25px; }
+        .project, .experience { margin-bottom: 20px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        .highlight { font-weight: bold; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Colonne de gauche -->
+    <!-- Première page -->
+    <div class="cv-container">
+        <!-- Colonne de gauche (même sur les deux pages) -->
         <div class="left-column">
-            <h1>HOUSNI Malika</h1>
-            <h2>Développeuse Full Stack Ruby on Rails</h2>
-            
-            <div class="contact-info">
-                <h2>CONTACT</h2>
-                <p>Email : mikayakouta@gmail.com</p>
-                <p>Téléphone : +33 6 66 72 30 81</p>
-                <p>Localisation : Paris, France</p>
-            </div>
+						<img src="moi.jpg" alt="Photo de Malika Housni" style="width: 100%; height: auto;">
+
+						<div class="contact-info">
+							<h2>CONTACT</h2>
+							<p>📧 <a href="mailto:mikayakouta@gmail.com">mikayakouta@gmail.com</a></p>
+							<p>📞 <a href="tel:+33666723081">+33 6 66 72 30 81</a></p>
+							<p>🌍 Paris, France</p>
+							<p>🔗 <a href="https://linkedin.com/in/housnim" target="_blank">LinkedIn</a> | 
+								 🔗 <a href="https://github.com/joupify" target="_blank">GitHub</a></p>
+					</div>
+					
+					<style>
+							.contact-info a {
+									color: #2E86C1; /* Couleur bleue */
+									text-decoration: none;
+									transition: all 0.3s;
+							}
+							.contact-info a:hover {
+									text-decoration: underline;
+									opacity: 0.8;
+							}
+							.contact-info p {
+									margin: 8px 0;
+							}
+					</style>
+
+<style>
+    .links a {
+        color: #2E86C1;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    .links a:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+</style>
             
             <div class="section">
                 <h2>COMPÉTENCES TECHNIQUES</h2>
@@ -102,8 +146,70 @@
                 <ul>
                     <li>PostgreSQL</li>
                 </ul>
+            </div>
+            
+            <div class="section">
+                <h2>SOFT SKILLS</h2>
+                <ul>
+                    <li>Méthodologie rigoureuse</li>
+                    <li>Résolution de problèmes</li>
+                    <li>Esprit collaboratif</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Colonne de droite - Page 1 -->
+        <div class="right-column">
+            <div class="page">
+                <div class="section">
+									<h1>HOUSNI Malika</h1>
+									<h1 class="title">Développeuse Full Stack Ruby on Rails<h1>
+
+
+                    <h2>PROFIL</h2>
+                    <p>Développeuse Full Stack Ruby on Rails Junior, ancienne gestionnaire de projets, je combine méthodologie rigoureuse, résolution de problèmes et esprit collaboratif. Passionnée par la création d'applications web évolutives, je maîtrise Ruby on Rails, Hotwire, Stimulus et PostgreSQL. Je cherche à rejoindre une équipe dynamique pour relever des défis techniques ambitieux.</p>
+                </div>
                 
-                <h3>Outils</h3>
+                <div class="section">
+                    <h2>FORMATION</h2>
+                    <div class="project">
+                        <h3>Développeur Ruby on Rails</h3>
+                        <p><strong>Le Wagon, Paris | 2023</strong></p>
+                        <p>Formation intensive : Ruby on Rails, intégration de Stimulus et Hotwire, et développement d'API RESTful.</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>PROJETS MARQUANTS</h2>
+                    <div class="project">
+                        <h3>Clairbnb - Plateforme de location de logements</h3>
+                        <p>Projet personnel visant à reproduire les fonctionnalités d'une plateforme de location comme Airbnb.</p>
+                        <ul>
+                            <li><span class="highlight">Fonctionnalités</span> : Authentification sécurisée avec Devise, paiement (Stripe), notifications et messagerie en temps réel.</li>
+                            <li><span class="highlight">Impact</span> : Gain de performance de 30 % grâce à l'optimisation des requêtes SQL et à l'utilisation de Hotwire Turbo pour des mises à jour en temps réel.</li>
+                        </ul>
+                    </div>
+										<div class="project">
+											<h3>VibeVault - Site e-commerce (Projet en cours)</h3>
+											<p>Plateforme e-commerce avec gestion des produits, catégories, panier d'achat et paiement intégré.</p>
+											<ul>
+													<li><span class="highlight">Fonctionnalités</span> : Implémentation d'un système de gestion de produits, panier d'achat, et paiements Stripe.</li>
+													<li><span class="highlight">Impact prévu</span> : Simplification du parcours d'achat grâce à une interface intuitive et des recommandations personnalisées, optimisant l'engagement utilisateur.</li>
+											</ul>
+									</div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Deuxième page -->
+    <div class="cv-container">
+        <!-- Colonne de gauche (identique) -->
+        <div class="left-column">
+            <div class="section">
+                <h2>OUTILS</h2>
                 <ul>
                     <li>Git, GitHub</li>
                     <li>Heroku</li>
@@ -125,17 +231,6 @@
             </div>
             
             <div class="section">
-                <h2>SOFT SKILLS</h2>
-                <ul>
-                    <li>Méthodologie rigoureuse</li>
-                    <li>Résolution de problèmes</li>
-                    <li>Esprit collaboratif</li>
-                    <li>Autonomie</li>
-                    <li>Adaptabilité</li>
-                </ul>
-            </div>
-            
-            <div class="section">
                 <h2>LANGUES</h2>
                 <ul>
                     <li>Français : Courant</li>
@@ -143,88 +238,66 @@
                     <li>Espagnol : Professionnel</li>
                 </ul>
             </div>
+            
+            <div class="section">
+                <h2>SOFT SKILLS</h2>
+                <ul>
+                    <li>Autonomie</li>
+                    <li>Adaptabilité</li>
+                    <li>Forte capacité d'apprentissage</li>
+                </ul>
+            </div>
         </div>
         
-        <!-- Colonne de droite -->
+        <!-- Colonne de droite - Page 2 -->
         <div class="right-column">
-            <div class="section">
-                <h2>PROFIL</h2>
-                <p>Développeuse Full Stack Ruby on Rails Junior, ancienne gestionnaire de projets, je combine méthodologie rigoureuse, résolution de problèmes et esprit collaboratif. Passionnée par la création d'applications web évolutives, je maîtrise Ruby on Rails, Hotwire, Stimulus et PostgreSQL. Je cherche à rejoindre une équipe dynamique pour relever des défis techniques ambitieux.</p>
-            </div>
-            
-            <div class="section">
-                <h2>FORMATION</h2>
-                <div class="project">
-                    <h3>Développeur Ruby on Rails</h3>
-                    <p><strong>Le Wagon, Paris | 2023</strong></p>
-                    <p>Formation intensive : Ruby on Rails, intégration de Stimulus et Hotwire, et développement d'API RESTful.</p>
-                </div>
-            </div>
-            
-            <div class="section">
-                <h2>PROJETS MARQUANTS</h2>
-                <div class="project">
-                    <h3>Clairbnb – Plateforme de location de logements</h3>
-                    <p>Projet personnel visant à reproduire les fonctionnalités d'une plateforme de location comme Airbnb.</p>
-                    <ul>
-                        <li><span class="highlight">Fonctionnalités</span> : Authentification sécurisée avec Devise, paiement (Stripe), notifications et messagerie en temps réel.</li>
-                        <li><span class="highlight">Impact</span> : Gain de performance de 30 % grâce à l'optimisation des requêtes SQL et à l'utilisation de Hotwire Turbo pour des mises à jour en temps réel.</li>
-                    </ul>
+            <div class="page">
+                <div class="section">
+                    <div class="project">
+                        <h3>SmartLookify - Application de conseil en image</h3>
+                        <p>Projet personnel conçu pour aider les utilisateurs à améliorer leur image personnelle grâce à des recommandations adaptées.</p>
+                        <ul>
+                            <li><span class="highlight">Fonctionnalités</span> : Interface personnalisée, recommandations adaptées et notifications dynamiques pour de nouvelles suggestions de style.</li>
+                            <li><span class="highlight">Impact</span> : Engagement accru des utilisateurs via des recommandations ciblées et une interface intuitive.</li>
+                        </ul>
+                    </div>
+                    <div class="project">
+											<h3>Rails Canopée - Application de gestion de jardins urbains</h3>
+											<p>(Projet de fin d'études)</p>
+											<p>Application de gestion de jardins urbains pour améliorer l'organisation et la productivité des utilisateurs.</p>
+											<ul>
+													<li><span class="highlight">Contributions</span> : UX et développement backend (gestion des jardins, tâches, utilisateurs).</li>
+													<li><span class="highlight">Impact</span> : Augmentation de l'efficacité des utilisateurs de 25 % grâce à une interface simplifiée et une meilleure organisation des tâches.</li>
+											</ul>
+									</div>
+                  
                 </div>
                 
-                <div class="project">
-                    <h3>Rails Canopée – Application de gestion de jardins urbains</h3>
-                    <p>(Projet de fin d'études)</p>
-                    <p>Application de gestion de jardins urbains pour améliorer l'organisation et la productivité des utilisateurs.</p>
-                    <ul>
-                        <li><span class="highlight">Contributions</span> : UX et développement backend (gestion des jardins, tâches, utilisateurs).</li>
-                        <li><span class="highlight">Impact</span> : Augmentation de l'efficacité des utilisateurs de 25 % grâce à une interface simplifiée et une meilleure organisation des tâches.</li>
-                    </ul>
+                <div class="section">
+                    <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+                    <div class="experience">
+                        <h3>Acheteuse Internationale et Gestion de Projet - Pixmania</h3>
+                        <ul>
+                            <li>Réduction de 20 % des coûts de transport et amélioration de 25 % des délais de livraison grâce à une coordination efficace et à des négociations stratégiques.</li>
+                            <li>Ces compétences en optimisation des processus se traduisent aujourd'hui dans ma capacité à structurer et optimiser des projets techniques.</li>
+                        </ul>
+                    </div>
+                    <div class="experience">
+                        <h3>Responsable de la coordination de projets d'infrastructure à grande échelle - Ferrovial</h3>
+                        <ul>
+                            <li>Supervision d'équipes multidisciplinaires et gestion rigoureuse des budgets.</li>
+                            <li>Mon expérience en coordination et planification stratégique renforce ma capacité à collaborer efficacement dans des équipes de développement web.</li>
+                        </ul>
+                    </div>
                 </div>
                 
-                <div class="project">
-                    <h3>SmartLookify – Application de conseil en image</h3>
-                    <p>Projet personnel conçu pour aider les utilisateurs à améliorer leur image personnelle grâce à des recommandations adaptées.</p>
+                <div class="section">
+                    <h2>CERTIFICATIONS</h2>
                     <ul>
-                        <li><span class="highlight">Fonctionnalités</span> : Interface personnalisée, recommandations adaptées et notifications dynamiques pour de nouvelles suggestions de style.</li>
-                        <li><span class="highlight">Impact</span> : Engagement accru des utilisateurs via des recommandations ciblées et une interface intuitive.</li>
+                        <li>Concepteur d'application web - Le Wagon</li>
+                        <li>Consultante en image et gestion d'entreprise</li>
                     </ul>
                 </div>
-                
-                <div class="project">
-                    <h3>VibeVault – Site e-commerce (Projet en cours)</h3>
-                    <p>Plateforme e-commerce avec gestion des produits, catégories, panier d'achat et paiement intégré.</p>
-                    <ul>
-                        <li><span class="highlight">Fonctionnalités</span> : Implémentation d'un système de gestion de produits, panier d'achat, et paiements Stripe.</li>
-                        <li><span class="highlight">Impact prévu</span> : Simplification du parcours d'achat grâce à une interface intuitive et des recommandations personnalisées, optimisant l'engagement utilisateur.</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="section">
-                <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
-                <div class="experience">
-                    <h3>Acheteuse Internationale et Gestion de Projet – Pixmania</h3>
-                    <ul>
-                        <li>Réduction de 20 % des coûts de transport et amélioration de 25 % des délais de livraison grâce à une coordination efficace et à des négociations stratégiques.</li>
-                        <li>Ces compétences en optimisation des processus se traduisent aujourd'hui dans ma capacité à structurer et optimiser des projets techniques.</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3>Responsable de la coordination de projets d'infrastructure à grande échelle – Ferrovial</h3>
-                    <ul>
-                        <li>Supervision d'équipes multidisciplinaires et gestion rigoureuse des budgets.</li>
-                        <li>Mon expérience en coordination et planification stratégique renforce ma capacité à collaborer efficacement dans des équipes de développement web.</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="section">
-                <h2>CERTIFICATIONS</h2>
-                <ul>
-                    <li>Concepteur d'application web – Le Wagon</li>
-                    <li>Consultante en image et gestion d'entreprise</li>
-                </ul>
             </div>
         </div>
     </div>
