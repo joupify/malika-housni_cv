@@ -5,28 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOUSNI - Développeuse Full Stack Ruby on Rails</title>
     <style>
+			
+
+				@page {
+						size: A4;
+						margin: 0.5cm; /* Ajoutez des marges minimales */
+						height: 297mm; /* Ou 1120px max pour A4 */
+    				page-break-after: always;
+				}
+				/*Éléments flottants non nettoyés*/
+				.cv-container::after {
+						content: "";
+						display: table;
+						clear: both;
+					}
+
         /* Styles de base */
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1,5;
             color: #333;
             margin: 0;
             padding: 0;
-            /* background-color: #f5f5f5; */
+           	background-color: #f5f5f5; 
+						width: 210mm; /* Format A4 */
+						height: 297mm;
+						margin: 0 auto;
         }
         
         /* Conteneur principal */
         .cv-container {
             display: flex;
             max-width: 1000px;
-            margin: 20px auto;
+            margin: 15px auto;
             /* background: white; */
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         
         /* Colonnes */
         .left-column {
-            width: 35%;
+            width: 30%;
             padding: 30px;
             background-color: #dce6f1;
             /* color: white; */
@@ -34,7 +52,7 @@
         
         .right-column {
             width: 65%;
-            padding: 30px;
+            padding: 25px;
         }
         
         /* Styles pour les sauts de page */
@@ -75,6 +93,77 @@
 					 .title {
 						font-size: 24px;
 				}
+
+				    /* Style du bouton d'impression */
+						.print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #2E86C1;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        .print-btn:hover {
+            background: #1A5276;
+        }
+
+        /* Optimisation pour l'impression */
+        @media print {
+            .print-btn {
+                display: none;
+            }
+            body {
+							-webkit-print-color-adjust: exact;
+								print-color-adjust: exact;
+                background: white !important;
+                color: black !important;
+            }
+            .left-column {
+							background-color: #dce6f1; 
+							-webkit-print-color-adjust: exact !important;
+							print-color-adjust: exact !important;
+							color-adjust: exact !important;
+					}
+            a {
+                color: #2E86C1 !important;
+                text-decoration: none !important;
+            }
+
+								
+					}
+				@media print {
+						/* Réinitialisation des hauteurs */
+						html, body {
+								height: auto !important;
+								overflow: visible !important;
+						}
+						
+						/* Correction des pages */
+						.page {
+								height: auto !important;
+								page-break-after: avoid;
+								margin-bottom: 0;
+						}
+						
+						/* Force une seule page par section */
+						.cv-container {
+								page-break-inside: avoid;
+								break-inside: avoid;
+						}
+						
+						/* Suppression des espaces vides */
+						body > *:empty {
+								display: none;
+						}
+				}
+        
+	
         
         /* Autres styles... */
         h1 { font-size: 36px; margin-bottom: 10px; font-weight: bold;font-style: italic;}
@@ -86,9 +175,111 @@
         ul { padding-left: 20px; }
         li { margin-bottom: 5px; }
         .highlight { font-weight: bold; }
+
+
+				.contact-info a {
+						color: #2E86C1; /* Couleur bleue */
+						text-decoration: none;
+						transition: all 0.3s;
+				}
+				.contact-info a:hover {
+						text-decoration: underline;
+						opacity: 0.8;
+				}
+				.contact-info p {
+						margin: 8px 0;
+						
+				}
+
+				.links a {
+					color: #2E86C1;
+					text-decoration: none;
+					transition: all 0.3s;
+			}
+			.links a:hover {
+					text-decoration: underline;
+					opacity: 0.8;
+			}
     </style>
+
+<style>
+  /* ===== BASE STYLES ===== */
+  body {
+    margin: 0;
+    /* padding: 0; */
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+
+  /* ===== MAIN CONTAINER ===== */
+  .cv-container {
+    display: flex;
+    max-width: 210mm; /* Format A4 */
+    min-height: 297mm;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ===== COLUMNS ===== */
+  .left-column {
+    width: 65mm; /* Largeur fixe en mm */
+    background-color: #dce6f1;
+    padding: 5mm;
+    box-sizing: border-box;
+  }
+
+  .right-column {
+    flex: 1;
+    padding: 5mm;
+    box-sizing: border-box;
+  }
+
+  /* ===== PRINT STYLES ===== */
+  @media print {
+    body {
+      background: white !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
+    .cv-container {
+      box-shadow: none;
+      height: 297mm;
+      page-break-after: always;
+    }
+    
+    .left-column {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 297mm;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    
+    .right-column {
+      margin-left: 65mm;
+    }
+  }
+</style>
+
 </head>
 <body>
+
+	 <!-- Bouton d'impression -->
+	 <button class="print-btn" onclick="window.print()">🖨️ Imprimer le CV</button>
+
+	 <script>
+			 // Optionnel : Message avant impression
+			 window.onbeforeprint = function() {
+					 console.log("Préparation de l'impression...");
+			 };
+	 </script>
+
+
     <!-- Première page -->
     <div class="cv-container">
         <!-- Colonne de gauche (même sur les deux pages) -->
@@ -104,32 +295,10 @@
 								 🔗 <a href="https://github.com/joupify" target="_blank">GitHub</a></p>
 					</div>
 					
-					<style>
-							.contact-info a {
-									color: #2E86C1; /* Couleur bleue */
-									text-decoration: none;
-									transition: all 0.3s;
-							}
-							.contact-info a:hover {
-									text-decoration: underline;
-									opacity: 0.8;
-							}
-							.contact-info p {
-									margin: 8px 0;
-							}
-					</style>
+				
 
-<style>
-    .links a {
-        color: #2E86C1;
-        text-decoration: none;
-        transition: all 0.3s;
-    }
-    .links a:hover {
-        text-decoration: underline;
-        opacity: 0.8;
-    }
-</style>
+
+    
             
             <div class="section">
                 <h2>COMPÉTENCES TECHNIQUES</h2>
