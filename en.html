@@ -2,187 +2,212 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOUSNI Malika - Full Stack Ruby on Rails Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>HOUSNI - Full Stack Ruby on Rails Developer</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="assets/css/en.css"> -->
 </head>
+
 <body>
+
     <div class="language-switcher">
         <button onclick="switchToFrench()">Version Française</button>
+    <!-- Print button optimized -->
+
+    <button onclick="window.print()">
+    🖨️ Generate PDF
+    </button>
+	</div>
+
+		
+
+    <!-- First page -->
+    <div class="cv-container">
+        <!-- Left column (same on both pages) -->
+        <div class="left-column">
+            <img src="moi.jpg" alt="Photo of Malika Housni" style="width: 100%; height: auto;">
+
+            <div class="contact-info">
+                <h2>CONTACT</h2>
+                <p>📧 <a href="mailto:mikayakouta@gmail.com">mikayakouta@gmail.com</a></p>
+                <p>📞 <a href="tel:+33666723081">+33 6 66 72 30 81</a></p>
+                <p>🌍 Paris, France</p>
+                <p>🔗 <a href="https://linkedin.com/in/housnim" target="_blank">LinkedIn</a> | 
+                   🔗 <a href="https://github.com/joupify" target="_blank">GitHub</a></p>
+            </div>
+
+            <div class="section">
+                <h2 class="smaller-title">TECHNICAL SKILLS</h2>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Ruby</li>
+                    <li>Ruby on Rails</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (Stimulus, Hotwire)</li>
+                </ul>
+                
+                <h3>Databases</h3>
+                <ul>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>SOFT SKILLS</h2>
+                <ul>
+                    <li>Rigorous methodology</li>
+                    <li>Problem-solving</li>
+                    <li>Team spirit</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right column - Page 1 -->
+        <div class="right-column">
+            <div class="page">
+                <div class="section">
+                    <h1>HOUSNI Malika</h1>
+                    <h1 class="title">Full Stack Ruby on Rails Developer</h1>
+
+                    <h2>PROFILE</h2>
+                    <p>Full-Stack Ruby on Rails Developer with dual expertise in project management and web development. Specialized in building high-performance applications with:</br>
+                    - <strong>Tech Stack:</strong> Ruby on Rails, Hotwire/Stimulus, PostgreSQL</br>  
+                    - <strong>Key Strengths:</strong> Agile methodology, performance optimization (+30% on Clearbnb), user-centered product approach</br>  
+                    - <strong>Added Value:</strong> 5+ years of experience in e-commerce transferable to business tool development.</p>
+                </div>
+
+                <div class="section">
+                    <h2>EDUCATION</h2>
+                    <div class="project">
+                        <h3>Ruby on Rails Developer</h3>
+                        <p><strong>Le Wagon, Paris | 2023</strong></p>
+                        <p>Intensive training: Ruby on Rails, Stimulus and Hotwire integration, and RESTful API development.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>KEY PROJECTS</h2>
+                    <div class="project">
+                        <h3>Clairbnb - Housing rental platform</h3>
+                        <p>Personal project replicating key features of a rental platform like Airbnb.</p>
+                        <ul>
+                            <li><span class="highlight">Features</span>: Secure authentication with Devise, payment (Stripe), real-time notifications and messaging.</li>
+                            <li><span class="highlight">Impact</span>: 30% performance gain through SQL query optimization and use of Hotwire Turbo for real-time updates.</li>
+                        </ul>
+                    </div>
+                    <div class="project">
+                        <h3>VibeVault - E-commerce site (Ongoing project)</h3>
+                        <p>E-commerce platform with product management, categories, shopping cart, and integrated payment.</p>
+                        <ul>
+                            <li><span class="highlight">Features</span>: Product management system, shopping cart, and Stripe payments implementation.</li>
+                            <li><span class="highlight">Expected Impact</span>: Simplified purchasing journey through an intuitive interface and personalized recommendations, enhancing user engagement.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   
-				<!-- Print Button -->
-				<button onclick="window.print()" class="print-btn">
-						🖨️ Generate PDF
-				</button>
-		
-				<!-- First Page -->
-				<div class="cv-container">
-						<!-- Left Column -->
-						 
-						<div class="left-column">
-								<img src="moi.jpg" alt="Malika Housni's photo" style="width: 100%; height: auto;">
-		
-								<div class="contact-info">
-										<h2>CONTACT</h2>
-										<p>📧 <a href="mailto:mikayakouta@gmail.com">mikayakouta@gmail.com</a></p>
-										<p>📞 <a href="tel:+33666723081">+33 6 66 72 30 81</a></p>
-										<p>🌍 Paris, France</p>
-										<p>🔗 <a href="https://linkedin.com/in/housnim" target="_blank">LinkedIn</a> | 
-											 🔗 <a href="https://github.com/joupify" target="_blank">GitHub</a></p>
-								</div>
-		
-								<div class="section">
-										<h2 class="smaller-title">TECHNICAL SKILLS</h2>
-										<h3>Languages</h3>
-										<ul>
-												<li>Ruby</li>
-												<li>Ruby on Rails</li>
-												<li>HTML5</li>
-												<li>CSS3</li>
-												<li>JavaScript (Stimulus, Hotwire)</li>
-										</ul>
-										
-										<h3>Databases</h3>
-										<ul>
-												<li>PostgreSQL</li>
-										</ul>
-										
-										<h3>Tools</h3>
-										<ul>
-												<li>Git, GitHub</li>
-												<li>Heroku</li>
-												<li>Slack</li>
-										</ul>
-								</div>
-								
-								<div class="section">
-										<h2>SOFT SKILLS</h2>
-										<ul>
-												<li>Methodical approach</li>
-												<li>Problem-solving</li>
-												<li>Team collaboration</li>
-										</ul>
-								</div>
-								
-								<div class="section">
-										<h2>LANGUAGES</h2>
-										<ul>
-												<li>French: Native</li>
-												<li>English: Professional</li>
-												<li>Spanish: Professional</li>
-										</ul>
-								</div>
-						</div>
-						
-						<!-- Right Column - Page 1 -->
-						<div class="right-column">
-								<div class="page">
-										<div class="section">
-												<h1>HOUSNI Malika</h1>
-												<h1 class="title">Full Stack Ruby on Rails Developer</h1>
-		
-												<h2>PROFILE</h2>
-												<p><strong>Full-Stack Ruby on Rails Developer</strong> | Le Wagon Bootcamp Graduate | Former Project Manager</p>
-												<p>✦ <strong>Technical Stack</strong>: Rails 7, Hotwire, PostgreSQL (+30% performance on Clearbnb)</p>
-												<p>✦ <strong>Unique Value</strong>: Tech skills + business mindset (5 yrs in e-commerce)</p>
-												<p>✦ <strong>Approach</strong>: Clean code, user-centric solutions</p>
-										</div>
-										
-										<div class="section">
-												<h2>EDUCATION</h2>
-												<div class="project">
-														<h3>Ruby on Rails Developer</h3>
-														<p><strong>Le Wagon, Paris | 2023</strong></p>
-														<p>Intensive bootcamp: Ruby on Rails, Stimulus & Hotwire integration, RESTful API development</p>
-												</div>
-										</div>
-										
-										<div class="section">
-												<h2>KEY PROJECTS</h2>
-												<div class="project">
-														<h3>Clearbnb - Rental platform</h3>
-														<p>Airbnb-like platform with advanced features</p>
-														<ul>
-																<li><span class="highlight">Features</span>: Devise authentication, Stripe payments, real-time notifications</li>
-																<li><span class="highlight">Impact</span>: 30% performance gain through SQL optimization and Hotwire Turbo</li>
-														</ul>
-												</div>
-												
-												<div class="project">
-														<h3>VibeVault - E-commerce platform (WIP)</h3>
-														<p>Online store with product management</p>
-														<ul>
-																<li><span class="highlight">Features</span>: Product catalog, shopping cart, Stripe integration</li>
-																<li><span class="highlight">Goal</span>: Streamlined user experience with personalized recommendations</li>
-														</ul>
-												</div>
-										</div>
-								</div>
-						</div>
-				</div>
-				
-				<!-- Second Page -->
-				<div class="cv-container">
-						<!-- Left Column (same as first page) -->
-						<div class="left-column">
-								<!-- Content repeated from first page -->
-						</div>
-						
-						<!-- Right Column - Page 2 -->
-						<div class="right-column">
-								<div class="page">
-										<div class="section">
-												<div class="project">
-														<h3>SmartLookify - Style advisor app</h3>
-														<p>Personalized fashion recommendations</p>
-														<ul>
-																<li><span class="highlight">Features</span>: Custom interface, dynamic suggestions</li>
-																<li><span class="highlight">Impact</span>: Increased user engagement through tailored content</li>
-														</ul>
-												</div>
-												
-												<div class="project">
-														<h3>Rails Canopy - Urban garden manager</h3>
-														<p>(Final project)</p>
-														<p>Application for managing community gardens</p>
-														<ul>
-																<li><span class="highlight">Contributions</span>: Backend development (garden/task management)</li>
-																<li><span class="highlight">Impact</span>: 25% efficiency boost through simplified interface</li>
-														</ul>
-												</div>
-										</div>
-										
-										<div class="section">
-												<h2>PROFESSIONAL EXPERIENCE</h2>
-												<div class="experience">
-														<h3>International Buyer & Project Manager - Pixmania</h3>
-														<ul>
-																<li>Reduced logistics costs by 20% through strategic coordination</li>
-																<li>Improved delivery times by 25% via process optimization</li>
-														</ul>
-												</div>
-												<div class="experience">
-														<h3>Infrastructure Project Coordinator - Ferrovial</h3>
-														<ul>
-																<li>Managed cross-functional teams and budgets</li>
-																<li>Applied strategic planning skills to technical projects</li>
-														</ul>
-												</div>
-										</div>
-										
-										<div class="section">
-												<h2>CERTIFICATIONS</h2>
-												<ul>
-														<li>Web Application Developer - Le Wagon</li>
-														<li>Image Consultant & Business Management</li>
-												</ul>
-										</div>
-								</div>
-						</div>
-				</div>
-	   
+
+    <!-- Second page -->
+    <div class="cv-container">
+        <!-- Left column (same) -->
+        <div class="left-column">
+            <div class="section">
+                <h2>TOOLS</h2>
+                <ul>
+                    <li>Git, GitHub</li>
+                    <li>Heroku</li>
+                    <li>Slack</li>
+                </ul>
+
+                <h3>Testing</h3>
+                <ul>
+                    <li>RSpec</li>
+                    <li>Capybara</li>
+                    <li>FactoryBot</li>
+                </ul>
+
+                <h3>APIs</h3>
+                <ul>
+                    <li>Stripe</li>
+                    <li>RESTful APIs</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>French: Fluent</li>
+                    <li>English: Professional</li>
+                    <li>Spanish: Professional</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>SOFT SKILLS</h2>
+                <ul>
+                    <li>Autonomy</li>
+                    <li>Adaptability</li>
+                    <li>Strong learning ability</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right column - Page 2 -->
+        <div class="right-column">
+            <div class="page">
+                <div class="section">
+                    <div class="project">
+                        <h3>SmartLookify - Image consulting application</h3>
+                        <p>Personal project designed to help users improve their personal image through tailored recommendations.</p>
+                        <ul>
+                            <li><span class="highlight">Features</span>: Personalized interface, adapted recommendations, and dynamic notifications for new style suggestions.</li>
+                            <li><span class="highlight">Impact</span>: Increased user engagement through targeted recommendations and intuitive interface.</li>
+                        </ul>
+                    </div>
+                    <div class="project">
+                        <h3>Rails Canopée - Urban garden management app</h3>
+                        <p>(Final project)</p>
+                        <p>Urban garden management application to enhance user organization and productivity.</p>
+                        <ul>
+                            <li><span class="highlight">Contributions</span>: UX and backend development (garden, task, and user management).</li>
+                            <li><span class="highlight">Impact</span>: 25% user efficiency increase thanks to a simplified interface and better task organization.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>PROFESSIONAL EXPERIENCE</h2>
+                    <div class="experience">
+                        <h3>International Buyer and Project Manager - Pixmania</h3>
+                        <ul>
+                            <li>Reduced transport costs by 20% and improved delivery times by 25% through efficient coordination and strategic negotiations.</li>
+                            <li>These process optimization skills now translate into my ability to structure and optimize technical projects.</li>
+                        </ul>
+                    </div>
+                    <div class="experience">
+                        <h3>Large-scale infrastructure project coordinator - Ferrovial</h3>
+                        <ul>
+                            <li>Supervised multidisciplinary teams and managed budgets rigorously.</li>
+                            <li>My experience in coordination and strategic planning enhances my ability to collaborate effectively in web development teams.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>CERTIFICATIONS</h2>
+                    <ul>
+                        <li>Web Application Designer - Le Wagon</li>
+                        <li>Image Consultant and Business Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/script.js"></script>
+
 </body>
 </html>
