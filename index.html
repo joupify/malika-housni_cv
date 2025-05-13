@@ -6,19 +6,30 @@
          <title>HOUSNI - Développeuse Full Stack Ruby on Rails</title>
         <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Google anlytic -->
-    <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4T5LT92K7Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-4T5LT92K7Z', {
-    send_page_view: true,
-    debug_mode: true
-  });
-</script>
 
+    <!-- Google anlytic -->
+    <script>
+        // Désactive GA si on passe l’URL ?no-track=true
+        const urlParams = new URLSearchParams(window.location.search);
+        if (!urlParams.has('no-track')) {
+          // Charger GA normalement
+          (function(){
+            var gtagScript = document.createElement('script');
+            gtagScript.async = true;
+            gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-4T5LT92K7Z";
+            document.head.appendChild(gtagScript);
+      
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-4T5LT92K7Z');
+          })();
+        } else {
+          console.log("Google Analytics désactivé pour cette session (no-track).");
+        }
+    </script>
+      
 
 
 
@@ -41,7 +52,7 @@
     <div class="cv-container">
         <!-- Colonne de gauche (même sur les deux pages) -->
         <div class="left-column">
-						<img src="moi.jpg" alt="Photo de Malika Housni" style="width: 100%; height: auto;">
+						<img src="assets/img/moi3.jpg" alt="Photo de Malika Housni" style="width: 100%; height: auto;">
 
 						<div class="contact-info">
 							<h2>CONTACT</h2>
