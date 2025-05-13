@@ -325,21 +325,32 @@ li { margin-bottom: 5px; }
   }
 }
 
-	@media print {
-		.left-column,
-		.right-column {
-			display: inline-block !important;
-			vertical-align: top !important;
-			width: 49% !important;
-			box-sizing: border-box !important;
-		}
-	
-		.cv-container {
-			display: block !important;
-		}
-	}
-	
-	
+
+@media print {
+  body {
+    zoom: 0.75; /* ou ajuste à 0.8 / 0.9 selon le rendu */
+    width: 210mm !important;
+    height: auto !important;
+  }
+
+  .cv-container {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .left-column {
+    width: 30% !important;
+  }
+
+  .right-column {
+    width: 70% !important;
+  }
+}
+
+
+
+
+
 }
 
 
