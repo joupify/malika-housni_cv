@@ -248,13 +248,7 @@ li { margin-bottom: 5px; }
 
 
 
-
-
-
-
-
-
-
+/* Responsive Mobile Design */
 
 @media screen and (max-width: 768px) {
   body {
@@ -321,6 +315,30 @@ li { margin-bottom: 5px; }
 		max-width: 100vw;
 		overflow-x: hidden;
 	}
+
+/* Styles pour Impression  pour les mobiles*/
+
+@media print {
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
+	@media print {
+		.left-column,
+		.right-column {
+			display: inline-block !important;
+			vertical-align: top !important;
+			width: 49% !important;
+			box-sizing: border-box !important;
+		}
+	
+		.cv-container {
+			display: block !important;
+		}
+	}
+	
 	
 }
 
