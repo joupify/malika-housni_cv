@@ -245,3 +245,120 @@ li { margin-bottom: 5px; }
 
 
 
+
+
+
+/* Responsive Mobile Design */
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0 10px;
+    width: 100% !important;
+    height: auto !important;
+    font-size: 15px;
+    background: #fff;
+  }
+
+  .cv-container {
+    /* display: block !important; */
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+
+  .page {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+    page-break-after: auto !important;
+    break-after: auto !important;
+    margin-bottom: 30px;
+  }
+
+  .left-column {
+    width: 40% !important; 
+    padding: 10px !important;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 24px !important;
+  }
+
+  h2 {
+    font-size: 16px !important;
+  }
+
+  .print-btn,
+  .language-switcher {
+    position: static !important;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .section, .certifications {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  * {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+	html, body {
+		max-width: 100vw;
+		overflow-x: hidden;
+	}
+}
+
+
+/* Optimisation impression A4 même depuis mobile ( forcer desktop) */
+@media print {
+  html, body {
+    width: 210mm !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    overflow: visible !important;
+    zoom: 100% !important;
+  }
+
+  .cv-container {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  .left-column {
+    width: 35% !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+    background-color: #dce6f1 !important;
+  }
+
+  .right-column {
+    width: 65% !important;
+    padding: 10px !important;
+    box-sizing: border-box;
+  }
+
+  .page {
+    page-break-after: always;
+    break-after: page;
+    height: auto !important;
+    overflow: visible !important;
+    margin: 0 !important;
+  }
+
+  .print-btn,
+  .language-switcher,
+  .print-note {
+    display: none !important;
+  }
+}
