@@ -1,1 +1,79 @@
 
+HOUSNI Malika 
+ 📍 Paris, France 
+ 📧 mikayakouta@gmail.com | 📞 +33 6 66 72 30 81 | 🔗 LinkedIn | 💻 GitHub
+
+ 
+
+Développeuse Full-Stack Ruby on Rails 
+Proﬁl : 
+ Ancienne pro du e-commerce reconvertie en développeuse RoR, je combine rigueur métier et expertise 
+technique (Le Wagon). Je code avec un mindset produit (+25% eﬃcacité sur Rails Canopée), en équipe 
+(Agile/pair programming) et en autonomie (veille active Hotwire/RSpec 7). 
+
+ 
+
+Compétences Techniques 
+ Backend : 
+ ● Ruby on Rails • API RESTful • Hotwire (Turbo/Stimulus) 
+ ● PostgreSQL • SQL • Optimisation des requêtes 
+ Frontend : 
+ ● HTML5/CSS3 • JavaScript • Responsive Design 
+ Workﬂow : 
+ ● Git/GitHub • RSpec/Capybara • Déploiement Heroku 
+ ● Méthodologies Agile • Pair Programming 
+Projets Techniques 
+ Clairbnb - Plateforme de location type Airbnb 
+ Stack : Rails 7, Hotwire Turbo, StimulusJS, PostgreSQL, Sidekiq, Redis 
+ Fonctionnalités clés : 
+ ✅ Notiﬁcations en temps réel : 
+ ● Implémentation avec Action Cable et Turbo Streams 
+ ● Système de messagerie instantanée entre utilisateurs 
+ ✅ Système de paiement : 
+ ● Intégration complète de Stripe (cartes bancaires, remboursements) 
+ ● Backoﬃce admin pour gestion des transactions 
+ ✅ Optimisations : 
+ ● Réduction de 30% du temps de réponse via : 
+ ○ Indexation avancée PostgreSQL 
+ ○ Caching Redis pour les recherches 
+ ○ Préchargement des associations 
+Rails Canopée - SaaS de gestion de jardins collaboratifs 
+ Stack : Rails 6, StimulusJS, Mapbox, Chartkick 
+ Fonctionnalités premium : 
+ 🌱 Tableau de bord interactif : 
+
+
+ ● Visualisation des tâches en drag & drop (Stimulus) 
+ ● Calcul automatique des besoins en arrosage 
+ 📱 Synchronisation multi-appareils : 
+ ● Historique des modiﬁcations versionné 
+ ● Gestion de projet : Coordination avec 4 co-développeurs 
+VibeVault - Plateforme e-commerce (en cours) 
+ Innovations techniques : 
+ 🛒 Panier persistant : 
+ ● Stockage côté client avec Stimulus + localStorage 
+ ● Synchronisation progressive avec le backend 
+ 🔍 Moteur de recherche avancé : 
+ ● Algolia pour les suggestions en temps réel 
+ ● Filtres complexes avec ActiveRecord
+
+ 
+
+Points Forts Techniques 
+ ● Expertise Hotwire : Turbo Frames/Streams, Broadcasts 
+ ● Architecture : Design Pattern Service Object, Pub/Sub 
+ ● Performances : Optimisation N+1, background jobs
+Formation 
+ Le Wagon Paris | 2023 
+ ● Bootcamp intensif (560h) : Ruby on Rails, TDD, architecture MVC 
+ ● Projet ﬁnal : Application full-stack 
+Expérience Professionnelle 
+ Optimisation des Processus | Pixmania 
+ ● Résolution de problèmes : Réduction de 20% des coûts logistiques via automatisation 
+ ● Collaboration transverse : Travail avec 4 départements 
+ ● Compétences transférées : Analyse data • Résolution de bottlenecks
+Pourquoi moi ? 
+ 🎯 Hybride tech/métier : 5 ans en e-commerce + stack Rails moderne 
+  Product Mindset : Je code en pensant impact utilisateur 
+ 🔎 Anglais technique (docs, échanges internationaux) 
+ 🦉 Autonome & curieuse : veille sur Rails 7.1 / Hotwire 
