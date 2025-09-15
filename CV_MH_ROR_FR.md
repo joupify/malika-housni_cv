@@ -21,7 +21,8 @@ Reconvertie avec succès (Bootcamp Le Wagon), je combine une solide expertise m�
 - Conception et déploiement d'un pipeline automatisé traitant 100+ failles zero-day par jour
 - Analyse et tri contextualisé par IA, détection de doublons, alertes multi-canaux (Slack, email)
 - Intégration de sources hétérogènes (CISA, CERT-FR, NIST) et monitoring temps réel  
-  → Démontre des compétences en automatisation, traitement de données et intégrations d'API
+   → Démontre des compétences en automatisation, traitement de données et intégrations d'API
+  🔗 [Voir le projet détaillé](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
 
 **VibeVault – Plateforme e-commerce full-stack (prod, code privé)** | Rails 7, Stimulus, Turbo, Algolia, PostgreSQL | 2024
 
