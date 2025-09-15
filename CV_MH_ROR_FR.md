@@ -22,6 +22,8 @@ Reconvertie avec succès (Bootcamp Le Wagon), je combine une solide expertise m�
 - Analyse et tri contextualisé par IA, détection de doublons, alertes multi-canaux (Slack, email)
 - Intégration de sources hétérogènes (CISA, CERT-FR, NIST) et monitoring temps réel  
   → Démontre des compétences en automatisation, traitement de données et intégrations d'API
+  🔗 [Voir le projet détaillé](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
+
 
 **VibeVault – Plateforme e-commerce full-stack (prod, code privé)** | Rails 7, Stimulus, Turbo, Algolia, PostgreSQL | 2024
 
@@ -63,3 +65,4 @@ Bootcamp intensif en développement web (560h) – Ruby on Rails, architecture M
 - **Espagnol :** Courant
 
 Références et détails des projets disponibles sur demande.
+
