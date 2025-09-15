@@ -1,6 +1,6 @@
 # HOUSNI Malika
 
-[Paris, France](https://www.google.com/maps?q=Paris,+France) | [mikayakouta@gmail.com](mailto:mikayakouta@gmail.com) | [ +33 6 66 72 30 81](tel:+33666723081)  
+[Paris, France](https://www.google.com/maps?q=Paris,+France) | [mikayakouta@gmail.com](mailto:mikayakouta@gmail.com) | [+33 6 66 72 30 81](tel:+33666723081)  
 [LinkedIn](https://linkedin.com/in/housnim) | [GitHub](https://github.com/joupify)
 
 ## Full-Stack Ruby on Rails Developer | Former E-commerce Professional
@@ -44,7 +44,7 @@ Successfully retrained (Le Wagon Bootcamp), I combine strong business expertise 
 - Achieved 20% cost reduction through data analysis and workflow automation
 - Cross-functional work with 4 departments (Tech, Logistics, Customer Support)  
   → Highlights collaboration, complex problem-solving, and business acumen
-- Transferred skills: Bottleneck resolution, data analysis, results orientation
+- Key transferable skills: Bottleneck resolution, data analysis, results orientation
 
 ## Education
 
@@ -56,7 +56,7 @@ _Intensive Web Development Bootcamp (560h) – Ruby on Rails, MVC architecture, 
 - Unique hybrid profile: 5 years of e-commerce business expertise + modern Rails technical stack
 - Product mindset: I code to solve user problems and create business impact
 - Autonomous & curious: Active monitoring of Rails 7.1, Hotwire, and automation tools (n8n)
-- Technical English proficiency
+- Strong technical English proficiency
 
 ## Languages
 
