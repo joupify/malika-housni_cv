@@ -6,13 +6,13 @@ This repository contains my professional CV, highlighting my Ruby on Rails exper
 
 ### 🇫🇷 French Version
 
-- `CV_Malika_Housni.md` - Source file (Markdown, editable)
-- `CV_Malika_Housni.pdf` - Final version (PDF, clickable links)
+- `CV_MH_ROR.md` - Source file (Markdown, editable)
+- `CV_MH_ROR.pdf` - Final version (PDF, clickable links)
 
 ### 🇬🇧 English Version
 
-- `CV_Malika_Housni_EN.md` - Source file (Markdown, editable)
-- `CV_Malika_Housni_EN.pdf` - Final version (PDF, clickable links)
+- `CV_MH_ROR_EN.md` - Source file (Markdown, editable)
+- `CV_MH_ROR_EN.pdf` - Final version (PDF, clickable links)
 
 ## 🚀 Featured Ruby on Rails Projects
 
@@ -62,8 +62,8 @@ Ce dépôt contient mon CV professionnel, mettant en avant mon expertise Ruby on
 
 ### 📁 Contenu du dépôt
 
-- `CV_Malika_Housni.md` - Fichier source (Markdown, modifiable)
-- `CV_Malika_Housni.pdf` - Version finale (PDF, liens cliquables)
+- `CV_MH_ROR_FR.md` - Fichier source (Markdown, modifiable)
+- `CV_MH_ROR_FR.pdf` - Version finale (PDF, liens cliquables)
 
 ### 🚀 Projets Ruby on Rails remarquables
 
@@ -83,3 +83,4 @@ Ce dépôt contient mon CV professionnel, mettant en avant mon expertise Ruby on
 - **📧 Email :** mikayakouta@gmail.com
 - **💼 LinkedIn :** [linkedin.com/in/housnim](https://linkedin.com/in/housnim)
 - **💻 GitHub :** [github.com/joupify](https://github.com/joupify)
+
