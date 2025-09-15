@@ -6,8 +6,8 @@ This repository contains my professional CV, highlighting my Ruby on Rails exper
 
 ### 🇫🇷 French Version
 
-- `CV_MH_ROR.md` - Source file (Markdown, editable)
-- `CV_MH_ROR.pdf` - Final version (PDF, clickable links)
+- `CV_MH_ROR_FR.md` - Source file (Markdown, editable)
+- `CV_MH_ROR_FR.pdf` - Final version (PDF, clickable links)
 
 ### 🇬🇧 English Version
 
@@ -83,4 +83,5 @@ Ce dépôt contient mon CV professionnel, mettant en avant mon expertise Ruby on
 - **📧 Email :** mikayakouta@gmail.com
 - **💼 LinkedIn :** [linkedin.com/in/housnim](https://linkedin.com/in/housnim)
 - **💻 GitHub :** [github.com/joupify](https://github.com/joupify)
+
 
