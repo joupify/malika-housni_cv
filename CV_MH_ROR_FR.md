@@ -1,7 +1,8 @@
 # HOUSNI Malika
 
-Paris, France | mikayakouta@gmail.com | +33 6 66 72 30 81  
-LinkedIn: linkedin.com/in/housnim | GitHub: github.com/joupify
+# HOUSNI Malika
+[Paris, France](https://www.google.com/maps?q=Paris,+France) | [mikayakouta@gmail.com](mailto:mikayakouta@gmail.com) | [ +33 6 66 72 30 81](tel:+33666723081)  
+[LinkedIn](https://linkedin.com/in/housnim) | [GitHub](https://github.com/joupify)
 
 ## Développeuse Full-Stack Ruby on Rails | Ancienne Professionnelle E-commerce
 
@@ -65,6 +66,7 @@ Bootcamp intensif en développement web (560h) – Ruby on Rails, architecture M
 - **Espagnol :** Courant
 
 Références et détails des projets disponibles sur demande.
+
 
 
 
