@@ -21,7 +21,7 @@ Successfully retrained (Le Wagon Bootcamp), I combine strong business expertise 
 - Designed and deployed an automated pipeline processing 100+ zero-day vulnerabilities daily
 - Contextual AI analysis and triage, duplicate detection, and multi-channel alerts (Slack, email)
 - Integration of heterogeneous sources (CISA, CERT-FR, NIST) and real-time monitoring  
-  → Demonstrates automation, data processing, and API integration skills
+  → Demonstrates automation, data processing, and API integration skills  
   🔗 [View detailed project](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
 
 
