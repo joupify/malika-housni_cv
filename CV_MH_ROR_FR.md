@@ -25,9 +25,9 @@ Reconvertie avec succès (Bootcamp Le Wagon), je combine une solide expertise m�
   → Démontre des compétences en automatisation, traitement de données et intégrations d'API  
   🔗 [Voir le projet détaillé](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
 
-**VibeVault – Plateforme e-commerce full-stack (prod, code privé)** | Rails 7, Stimulus, Turbo, Algolia, PostgreSQL | 2024
+**VibeVault – Plateforme e-commerce full-stack (prod, code privé)** | Rails 7, Stimulus, Turbo, PostgreSQL | 2024
 
-- Développement from scratch incluant panier persistant, moteur de recherche avancé (Algolia) et back-office
+- Développement from scratch incluant panier persistant, moteur de reccherche et back-office
 - Optimisation des performances et conception d'une architecture scalable  
   → Preuve de maîtrise du cycle de développement complet et des enjeux e-commerce
 

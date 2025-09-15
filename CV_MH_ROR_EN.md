@@ -25,9 +25,9 @@ Successfully retrained (Le Wagon Bootcamp), I combine strong business expertise 
   → Demonstrates automation, data processing, and API integration skills  
   🔗 [View detailed project](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
 
-**VibeVault – Full-Stack E-commerce Platform (Production, private code)** | Rails 7, Stimulus, Turbo, Algolia, PostgreSQL | 2024
+**VibeVault – Full-Stack E-commerce Platform (Production, private code)** | Rails 7, Stimulus, Turbo, PostgreSQL | 2024
 
-- Built from scratch: persistent cart, advanced search (Algolia), and admin dashboard
+- Built from scratch: persistent cart, search, and admin dashboard
 - Performance optimization and scalable architecture design  
   → Proof of complete development cycle mastery and e-commerce challenges understanding
 
