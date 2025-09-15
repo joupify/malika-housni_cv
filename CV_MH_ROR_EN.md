@@ -1,7 +1,7 @@
-# Malika Housni
+# HOUSNI Malika
 
-Paris, France | mikayakouta@gmail.com | +33 6 66 72 30 81  
-LinkedIn | GitHub
+[Paris, France](https://www.google.com/maps?q=Paris,+France) | [mikayakouta@gmail.com](mailto:mikayakouta@gmail.com) | [ +33 6 66 72 30 81](tel:+33666723081)  
+[LinkedIn](https://linkedin.com/in/housnim) | [GitHub](https://github.com/joupify)
 
 ## Full-Stack Ruby on Rails Developer | Former E-commerce Professional
 
@@ -20,8 +20,9 @@ Successfully retrained (Le Wagon Bootcamp), I combine strong business expertise 
 
 - Designed and deployed an automated pipeline processing 100+ zero-day vulnerabilities daily
 - Contextual AI analysis and triage, duplicate detection, and multi-channel alerts (Slack, email)
-- Integration of heterogeneous sources (CISA, CERT-FR, NIST) and real-time monitoring  
-  → Demonstrates automation, data processing, and API integration skills
+- Integration of heterogeneous sources (CISA, CERT-FR, NIST) and real-time monitoring
+
+  → Demonstrates automation, data processing, and API integration skills  
   🔗 [View detailed project](https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722)
 
 **VibeVault – Full-Stack E-commerce Platform (Production, private code)** | Rails 7, Stimulus, Turbo, Algolia, PostgreSQL | 2024
