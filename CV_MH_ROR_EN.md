@@ -1,7 +1,7 @@
-# Malika Housni
+# HOUSNI Malika
+[Paris, France](https://www.google.com/maps?q=Paris,+France) | [mikayakouta@gmail.com](mailto:mikayakouta@gmail.com) | [ +33 6 66 72 30 81](tel:+33666723081)  
+[LinkedIn](https://linkedin.com/in/housnim) | [GitHub](https://github.com/joupify)
 
-Paris, France | mikayakouta@gmail.com | +33 6 66 72 30 81  
-LinkedIn | GitHub
 
 ## Full-Stack Ruby on Rails Developer | Former E-commerce Professional
 
