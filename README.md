@@ -1,4 +1,4 @@
-# malika-housni-cv#  
+# malika-housni-cv
 🎯 Malika Housni - Full-Stack Ruby on Rails Developer
 
 This repository contains my professional CV, highlighting my Ruby on Rails expertise and hybrid e-commerce background.
@@ -84,6 +84,7 @@ Ce dépôt contient mon CV professionnel, mettant en avant mon expertise Ruby on
 - **📧 Email :** mikayakouta@gmail.com
 - **💼 LinkedIn :** [linkedin.com/in/housnim](https://linkedin.com/in/housnim)
 - **💻 GitHub :** [github.com/joupify](https://github.com/joupify)
+
 
 
 
