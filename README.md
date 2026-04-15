@@ -22,10 +22,11 @@ This repository contains my professional CV, showcasing my experience building p
 
 ## 🚀 Featured Projects
 
-### 🚀 Clairbnb - Full-Stack Booking Platform (Production)
+### Clairbnb - Full-Stack Booking Platform (Production)
 
 **Technologies:** Rails 7, PostgreSQL, Hotwire, Docker, Stripe, Sidekiq, Redis, Action Cable  
-**Deployment:** Render + CI/CD (GitHub Actions)
+**Deployment:** Render + CI/CD pipeline(GitHub Actions)
+**Status:** Actively maintained (last update: April 2026)
 
 **Description:**  
 Production-ready Airbnb clone with real-time messaging, secure payments, and background job processing.
