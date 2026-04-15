@@ -1,7 +1,10 @@
 # malika-housni-cv
+
 🎯 Malika Housni - Full-Stack Ruby on Rails Developer
 
-This repository contains my professional CV, highlighting my Ruby on Rails expertise and hybrid e-commerce background.
+This repository contains my professional CV, showcasing my experience building production-ready Ruby on Rails applications and my hybrid background in e-commerce.
+
+---
 
 ## 📁 Repository Content
 
@@ -15,76 +18,96 @@ This repository contains my professional CV, highlighting my Ruby on Rails exper
 - `CV_MH_ROR_EN.md` - Source file (Markdown, editable)
 - `CV_MH_ROR_EN.pdf` - Final version (PDF, clickable links)
 
-## 🚀 Featured Ruby on Rails Projects
+---
 
-### 🛒 VibeVault - Full-Stack E-commerce Platform
+## 🚀 Featured Projects
 
-**Technologies:** Rails 7, Hotwire, Turbo, Stimulus, PostgreSQL, Algolia, Stripe  
-**Description:** From-scratch development including persistent cart, advanced search, and complete admin dashboard.  
-**Key Features:** MVC architecture, performance optimization, scalable design
+### 🚀 Clairbnb - Full-Stack Booking Platform (Production)
 
-### 🏠 Clairbnb - Airbnb Clone
+**Technologies:** Rails 7, PostgreSQL, Hotwire, Docker, Stripe, Sidekiq, Redis, Action Cable  
+**Deployment:** Render + CI/CD (GitHub Actions)
 
-**Technologies:** Rails 7, Hotwire, Stripe, Sidekiq, Redis, Action Cable  
-**Description:** Full-stack booking platform with real-time notifications and secure payments
+**Description:**  
+Production-ready Airbnb clone with real-time messaging, secure payments, and background job processing.
 
-## 📫 Contact & Profiles
+**Key Features:**
 
-- **📧 Email:** mikayakouta@gmail.com
-- **💼 LinkedIn:** [linkedin.com/in/housnim](https://linkedin.com/in/housnim)
-- **💻 GitHub:** [github.com/joupify](https://github.com/joupify)
+- User authentication (Devise + OAuth)
+- Stripe payment integration
+- Real-time messaging (Action Cable)
+- Background jobs (Sidekiq + Redis)
+- SQL optimization & performance tuning
+- Dockerized environment (dev & production)
+- Automated deployment pipeline (CI/CD)
+
+---
+
+### 🧠 SOC-CERT - Automated Cybersecurity Intelligence System
+
+**Technologies:** n8n, Cohere AI, Bright Data, Slack API, Gmail API, Google Sheets API
+
+**Description:**  
+Automated pipeline for collecting, analyzing, and prioritizing security vulnerabilities.
+
+**Key Features:**
+
+- Automated vulnerability aggregation
+- AI-based classification and filtering
+- Deduplication logic
+- Multi-channel alerting (Slack, email)
+- Processing of 100+ vulnerabilities per day
+
+🔗 https://dev.to/joupify/soc-cert-automated-threat-intelligence-system-with-n8n-ai-5722
+
+---
+
+### 🌿 VibeVault - Full-Stack E-commerce Application
+
+**Technologies:** Rails 7, PostgreSQL, Hotwire (Turbo/Stimulus), Stripe, Sidekiq, Redis, Action Cable
+
+**Description:**  
+From-scratch e-commerce platform with core business features.
+
+**Key Features:**
+
+- Persistent shopping cart
+- Product search
+- Admin back-office
+- Scalable architecture
+
+---
 
 ## 🛠 Core Technical Skills
 
-**Ruby on Rails:** MVC, RESTful APIs, Hotwire (Turbo/Stimulus), RSpec, Performance Optimization  
-**Database:** PostgreSQL, SQL, Query Optimization, Database Design  
-**Frontend:** HTML5/CSS3, JavaScript, Responsive Design, Stimulus Components  
-**Tools & DevOps:** Git, Heroku, CI/CD, Agile Methodologies, Pair Programming
+**Backend:** Ruby on Rails, REST APIs, MVC architecture  
+**Frontend:** Javascript Hotwire (Turbo/Stimulus), HTML/CSS  
+**Database:** PostgreSQL, SQL, query optimization  
+**DevOps & Production:** Docker, CI/CD (GitHub Actions), Render  
+**Background Processing:** Sidekiq, Redis  
+**Integrations:** Stripe, OAuth, external APIs  
+**Testing:** RSpec (basics)
+
+---
 
 ## 🎓 Background
 
 **Le Wagon Paris** - Full-Stack Web Development Bootcamp (2023)  
-**Former E-commerce Professional** - 5+ years at Pixmania (process optimization, customer experience)
-
-## 📋 Usage Notes
-
-- **Markdown files** are source files for easy updates
-- **PDF files** are ready-to-send for job applications
-- All links in PDF versions are clickable
-- **Last updated:** September 2025
+**Former E-commerce Professional (Pixmania)** - Process optimization, data analysis, customer experience
 
 ---
 
+## 📫 Contact & Profiles
+
+- **📧 Email:** mikayakouta@gmail.com
+- **💼 LinkedIn:** https://linkedin.com/in/housnim
+- **💻 GitHub:** https://github.com/joupify
+
 ---
 
-## 🇫🇷 Version Française
+## 📋 Notes
 
-Ce dépôt contient mon CV professionnel, mettant en avant mon expertise Ruby on Rails et mon expérience hybride en e-commerce.
+- Markdown files are editable source versions
+- PDF files are ready-to-send CV versions
+- All links in PDF are clickable
 
-### 📁 Contenu du dépôt
-
-- `CV_MH_ROR_FR.md` - Fichier source (Markdown, modifiable)
-- `CV_MH_ROR_FR.pdf` - Version finale (PDF, liens cliquables)
-
-### 🚀 Projets Ruby on Rails remarquables
-
-#### 🛒 VibeVault – Plateforme E-commerce Full-Stack
-
-**Technologies :** Rails 7, Hotwire, Turbo, Stimulus, PostgreSQL, Stripe  
-**Description :** Développement from scratch incluant panier persistant, moteur de recherche et back-office complet.  
-**Fonctionnalités clés :** Architecture MVC, optimisation des performances, design scalable
-
-#### 🏠 Clairbnb – Clone d’Airbnb
-
-**Technologies :** Rails 7, Hotwire, Stripe, Sidekiq, Redis, Action Cable  
-**Description :** Plateforme de réservation full-stack avec notifications temps réel et paiement sécurisé
-
-### 📫 Contact & Profils
-
-- **📧 Email :** mikayakouta@gmail.com
-- **💼 LinkedIn :** [linkedin.com/in/housnim](https://linkedin.com/in/housnim)
-- **💻 GitHub :** [github.com/joupify](https://github.com/joupify)
-
-
-
-
+**Last updated:** April 2026
