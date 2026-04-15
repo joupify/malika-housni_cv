@@ -25,7 +25,7 @@ This repository contains my professional CV, showcasing my experience building p
 ### Clairbnb - Full-Stack Booking Platform (Production)
 
 **Technologies:** Rails 7, PostgreSQL, Hotwire, Docker, Stripe, Sidekiq, Redis, Action Cable  
-**Deployment:** Render + CI/CD pipeline(GitHub Actions)
+**Deployment:** Render + CI/CD pipeline(GitHub Actions)  
 **Status:** Actively maintained (last update: April 2026)
 
 **Description:**  
